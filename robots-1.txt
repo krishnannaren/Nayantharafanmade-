@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+
+Disallow: /assets/data/
+Disallow: /404.html
+Disallow: /offline.html
+
+Sitemap: https://www.nayantharafanmade.com/sitemap.xml

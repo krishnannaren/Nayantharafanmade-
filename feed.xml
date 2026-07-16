@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Nayantharafanmade — Fan News</title>
+    <link>https://www.nayantharafanmade.com/news.html</link>
+    <description>Community-curated news and updates about actress Nayanthara, from the unofficial Nayantharafanmade fan tribute site.</description>
+    <language>en-us</language>
+    <atom:link href="https://www.nayantharafanmade.com/feed.xml" rel="self" type="application/rss+xml"/>
+    <lastBuildDate>Wed, 10 Jun 2026 00:00:00 GMT</lastBuildDate>
+
+    <item>
+      <title>New project announcement excites fans</title>
+      <link>https://www.nayantharafanmade.com/news.html#new-project-announcement</link>
+      <guid isPermaLink="false">nfm-new-project-announcement</guid>
+      <pubDate>Wed, 10 Jun 2026 00:00:00 GMT</pubDate>
+      <category>Update</category>
+      <description>The fan community rounds up reactions to the latest project announcement.</description>
+    </item>
+    <item>
+      <title>Red carpet look breakdown</title>
+      <link>https://www.nayantharafanmade.com/news.html#red-carpet-look-breakdown</link>
+      <guid isPermaLink="false">nfm-red-carpet-look-breakdown</guid>
+      <pubDate>Fri, 22 May 2026 00:00:00 GMT</pubDate>
+      <category>Style</category>
+      <description>A closer look at a recent standout appearance and styling choices.</description>
+    </item>
+    <item>
+      <title>Fan edits of the month</title>
+      <link>https://www.nayantharafanmade.com/news.html#fan-edits-of-the-month</link>
+      <guid isPermaLink="false">nfm-fan-edits-of-the-month</guid>
+      <pubDate>Fri, 01 May 2026 00:00:00 GMT</pubDate>
+      <category>Community</category>
+      <description>Highlighting the most creative fan-made edits shared this month.</description>
+    </item>
+  </channel>
+</rss>

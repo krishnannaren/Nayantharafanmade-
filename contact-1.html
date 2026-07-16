@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact — Nayantharafanmade</title>
+<meta name="description" content="Get in touch with the Nayantharafanmade fan team for questions, fan submissions or collaboration ideas.">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://www.nayantharafanmade.com/contact.html">
+<meta name="theme-color" content="#050505">
+<link rel="manifest" href="manifest.json">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;800&family=Space+Grotesk:wght@500&family=Manrope:wght@400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ContactPage",
+  "name": "Contact Nayantharafanmade",
+  "url": "https://www.nayantharafanmade.com/contact.html",
+  "isPartOf": { "@type": "WebSite", "name": "Nayantharafanmade", "url": "https://www.nayantharafanmade.com/" },
+  "about": { "@type": "Organization", "name": "Nayantharafanmade" }
+}
+</script>
+</head>
+<body>
+<header class="navbar scrolled">
+  <nav class="nav-inner">
+    <a href="index.html" class="nav-logo">Nayantha<span>ra</span>fanmade</a>
+    <ul class="nav-menu" style="position:static; height:auto; width:auto; transform:none; background:none; flex-direction:row; padding:0; border:none;">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="index.html#about">About</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main class="section" style="max-width:820px; padding-top:9rem;">
+  <p class="eyebrow">Get In Touch</p>
+  <h1 style="font-size:clamp(2.2rem,5vw,3.2rem);">Contact</h1>
+  <p style="color:var(--muted); max-width:60ch; margin-bottom:2.4rem;">Questions, fan submissions or collaboration ideas — we'd love to hear from you. This is a fan-run project, so replies may take a little time.</p>
+
+  <form class="contact-form glass" aria-label="Contact form" onsubmit="return false;">
+    <div class="form-row">
+      <label for="name">Name</label>
+      <input type="text" id="name" name="name" autocomplete="name" required>
+    </div>
+    <div class="form-row">
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email" autocomplete="email" required>
+    </div>
+    <div class="form-row">
+      <label for="reason">Reason</label>
+      <select id="reason" name="reason" style="background:rgba(255,255,255,.05); border:1px solid rgba(255,255,255,.15); border-radius:10px; padding:.85em 1em; color:#fff; font-family:inherit;">
+        <option>General question</option>
+        <option>Fan art submission</option>
+        <option>Collaboration idea</option>
+        <option>Report an issue</option>
+      </select>
+    </div>
+    <div class="form-row">
+      <label for="message">Message</label>
+      <textarea id="message" name="message" rows="5" required></textarea>
+    </div>
+    <button type="submit" class="btn btn-primary">Send Message</button>
+    <p class="form-note">This form is a demo and does not currently send messages — no backend is connected yet.</p>
+  </form>
+
+  <p style="margin-top:2.5rem;"><a href="index.html" class="btn btn-outline">Back to Home</a></p>
+</main>
+
+<footer class="site-footer">
+  <div class="footer-disclaimer" style="max-width:820px; margin:0 auto;">
+    <p><strong>Disclaimer:</strong> This is an unofficial fan-made tribute website created by fans for fans. This website is not affiliated with or endorsed by Nayanthara or her representatives.</p>
+    <p>&copy; <span id="year"></span> Nayantharafanmade. All rights reserved.</p>
+  </div>
+</footer>
+
+<script>document.getElementById("year").textContent = new Date().getFullYear();</script>
+</body>
+</html>
